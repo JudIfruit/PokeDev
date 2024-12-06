@@ -1,0 +1,49 @@
+/* src/Main.css */
+
+/* Structure globale */
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Assure que le contenu occupe toute la hauteur de la fenêtre */
+}
+
+.main-content {
+    flex: 1; /* Permet au contenu principal de prendre tout l'espace disponible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffcc01 0%, #f7f7f7 100%);
+}
+
+/* Footer toujours en bas */
+.footer {
+    background-color: #3b4cca; /* Bleu Pokémon */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-top: 4px solid #ffcc01; /* Jaune Pokémon */
+}
+
+.footer a {
+    color: #ffcc01; /* Jaune Pokémon */
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #fff; /* Blanc au survol */
+    text-decoration: underline;
+}
+
+/* Layout responsif */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}

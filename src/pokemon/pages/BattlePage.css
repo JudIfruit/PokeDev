@@ -1,0 +1,78 @@
+/* BattlePage.css */
+.battle-container {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 165px;
+}
+
+.pokemon-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-combat {
+    width: 200px;
+    height: 200px;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    margin-top: 80px;
+}
+
+.pokemon-card:hover {
+    background-color: #f0f0f0;
+}
+
+.battle-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.battle-status {
+    margin-top: 20px;
+}
+
+.battle-message {
+    font-size: 18px;
+    margin-top: 20px;
+    color: green;
+}
+
+.battle-stage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pokemon {
+    text-align: center;
+}
+
+.pokemon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.battle-message {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ff5722;
+}
+
+.pokemon-hp {
+    font-size: 14px;
+    margin-top: 5px;
+    color: green;
+}

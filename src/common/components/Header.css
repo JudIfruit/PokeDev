@@ -1,0 +1,106 @@
+/* Header container */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffcc01;
+    border-bottom: 4px solid #3b4cca;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-family: "Arial", sans-serif;
+}
+
+/* Logo and Title container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Pokéball logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle, white 50%, #ff0000 50%);
+    border: 2px solid #3b4cca;
+    transition: transform 0.3s ease;
+}
+
+/* Title styling */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3b4cca;
+    font-family: "Pokemon", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #fff, 4px 4px 0 #ff0000;
+}
+
+/* Navigation links */
+.nav {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #3b4cca;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #ff0000;
+}
+
+/* Form container */
+.form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Search input styling */
+.input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #3b4cca;
+    border-radius: 8px;
+    background-color: #fff;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+/* Search button styling */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3b4cca;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #ff0000;
+    transform: translateY(-3px);
+}

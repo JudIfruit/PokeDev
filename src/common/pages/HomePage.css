@@ -1,0 +1,81 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.ContainerItems {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 70px;
+    justify-content: center;
+}
+
+.ContainerItems2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pokemonImage {
+    width: 100px;
+    height: 100px;
+}
+
+.typeImage {
+    width: 100px;
+    height: 100px;
+}
+
+.loadingText {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
+
+.errorText {
+    font-size: 18px;
+    color: red;
+    text-align: center;
+}
